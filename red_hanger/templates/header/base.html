@@ -1,0 +1,15 @@
+<header x-data="{open: false}" class="fixed top-0 left-0 right-0 z-40">
+  <nav class="bg-[#ff0000] border-b-8 border-red-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-center h-16">
+        <div class="flex">
+          {% comment %} {% include "header/mobile_menu_button.html" %} {% endcomment %}
+          <h1 class="font-mono m-auto text-xl sm:text-3xl text-white font-extrabold">Women's rights are human rights</h1>
+          {% comment %} {% include "header/desktop_center.html" %} {% endcomment %}
+        </div>
+        {% comment %} <div class="flex items-center">{% include "header/end.html" %}</div> {% endcomment %}
+      </div>
+    </div>
+    {% include "header/mobile_menu.html" %}
+  </nav>
+</header>

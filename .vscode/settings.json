@@ -1,0 +1,14 @@
+{
+  "[python]": {
+    "editor.codeActionsOnSave": { "source.organizeImports": true }
+  },
+  "editor.rulers": [92],
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "python.envFile": "",
+  "python.formatting.provider": "black",
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+  "scss.lint.unknownAtRules": "ignore"
+}

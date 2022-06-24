@@ -1,0 +1,8 @@
+*.pyc
+*.pyo
+/.env
+/.venv/
+/node_modules
+/red_hanger/static
+.DS_Store
+.editorconfig
